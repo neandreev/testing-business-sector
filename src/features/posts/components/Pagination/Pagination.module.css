@@ -1,13 +1,13 @@
 .pagination {
   display: flex;
   justify-content: space-around;
-  font-family: "Roboto", sans-serif;
   color: #474955;
 }
 
 .pagination__nav-button {
   all: unset;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
@@ -16,6 +16,7 @@
   all: unset;
   cursor: pointer;
   margin: 0 5px;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: oblique;
   font-weight: 700;
