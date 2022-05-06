@@ -1,0 +1,32 @@
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5a5c66;
+  max-width: 600px;
+  height: 52px;
+  margin-bottom: 15px;
+}
+
+.search__input {
+  all: unset;
+  color: #b2b7bf;
+  padding: 20px 30px;
+  flex-grow: 1;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.search__icon {
+  padding-right: 24px;
+}
+
+::-webkit-input-placeholder {
+  color: #b2b7bf;
+}
+
+::-moz-placeholder {
+  color: #b2b7bf;
+  opacity: 1;
+}
